@@ -1,0 +1,24 @@
+{
+  "name": "hotelprojectapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Paul",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "express-formidable": "^1.0.0"
+  }
+}
